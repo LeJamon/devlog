@@ -1,0 +1,20 @@
+{
+  "name": "devlog",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A devlog — engineering notes, tracked per project.",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.3",
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.13"
+  }
+}
