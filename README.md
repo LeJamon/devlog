@@ -1,7 +1,6 @@
 # Devlog
 
-An engineering devlog, tracked per project, with a technical-minimal UI inspired
-by [ritual.net](https://ritual.net). Built with [VitePress](https://vitepress.dev)
+An engineering devlog, tracked per project, with a technical-minimal UI.Built with [VitePress](https://vitepress.dev)
 and deployed to GitHub Pages. Content is plain Markdown — an AI agent (or a
 human) adds entries by dropping files under `projects/`, and the homepage feed,
 per-project lists, and sidebar regenerate themselves.
