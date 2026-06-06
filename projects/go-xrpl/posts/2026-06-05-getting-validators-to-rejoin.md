@@ -58,14 +58,3 @@ succeeds, **complete the switch** rather than waiting for the one path we
 happened to special-case. Twelve lines added, two removed, gated on support so
 it can't act on an unvalidated guess. With it, the failing control recovers:
 both `go-xrpl` nodes rejoin.
-
-## What we did *not* do
-
-We deliberately left the deep tx-set-convergence soak gate for a fresh CI run,
-and we kept the peer-LCL gate that fixed an earlier wedge. The discipline here:
-fix the confirmed fault, don't paper over the parts you haven't isolated yet,
-and resist deleting a guard you don't fully understand.
-
-Catch-up was sound the whole time. The bug was that "behind" and "forked" are
-two different states, and recovering from the second one needs you to actually
-*finish* changing your mind.

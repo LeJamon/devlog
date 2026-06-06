@@ -91,7 +91,6 @@ export default defineConfig({
     nav: [
       { text: 'Index', link: '/' },
       { text: 'Projects', link: '/projects/' },
-      { text: 'go-xrpl', link: '/projects/go-xrpl/' },
     ],
 
     sidebar: buildSidebar(),
